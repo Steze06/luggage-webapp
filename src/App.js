@@ -124,6 +124,8 @@ function Item({ item, onDeleteItem, onToggleItems }) {
 }
 
 function Stats() {
+  const numItems = items.length;
+
   return (
     <footer className="stats">
       <em>👜You have X items on your list, and you already packed X (X%)</em>
